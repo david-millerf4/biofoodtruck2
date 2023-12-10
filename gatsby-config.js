@@ -9,15 +9,22 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Ruza Nera Bio Food Truck & Bio Catering - 100% Bio-Zertifiziert! Gesund genießen!`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `David Miller`,
+      summary: `world-wide true believer webslinger`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Ruza Nera Bio Foodtruck & Bio Catering in München. 100% Bio-Zertifizert, Glutenfrei, Laktosefrei, Frisch und Regional.`,
+    author: `@biofoodtruck`,
+    siteBrand: `Ruza Nera Bio Foodtruck & Bio Catering`,
+    siteUrl: `https://www.biofoodtruck.net/`,
+    siteImage: `http://www.biofoodtruck.net/site_images/logo-biofoodtruck.jpg`,
+    keywords: `bio catering, bio foodtruck, bio burger, bio vegetarisch, bio vegan, bio regional, bio aus bayern, bio event catering, glutenfrei, laktosefrei, bio street food, bio streetfood, food truck, biofleisch, bio fleisch`,
     social: {
-      twitter: `kylemathews`,
+      twitterUsername: `RuzaNera`,
+      twitterUrl: `https://twitter.com/RuzaNera/`,
+      instagramUrl: `https://www.instagram.com/derbiofoodtruck/`,
+      facebookUrl: `https://www.facebook.com/biofoodtruck/`
     },
   },
   plugins: [
@@ -52,7 +59,6 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
         ],
       },
     },
@@ -102,7 +108,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Ruza Nera Biofoodtruck",
           },
         ],
       },
@@ -110,15 +116,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `Gatsby`,
+        name: `bio-food-truck-and-bio-catering`,
+        short_name: `biofoodtruck`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/biofoodtruck-icon.png`, // This path is relative to the root of the site.
       },
     },
   ],
