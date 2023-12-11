@@ -1,16 +1,14 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const Catering = ({ data, location }) => {
-    const siteTitle = data?.site.siteMetadata.title
+const Catering = ({ location }) => {
     return (
-        <Layout location={location} title={siteTitle}>
-            <h1>Catering</h1>
-            <div className="blog-header-break">&nbsp;</div>
-            <div className="textblock">
+        <Layout location={location}>
+            <h1>Bio Catering</h1>
+            <div>
                 <h3>alles bio - frisch - möglichst regional - glutenfrei</h3>
                 <p>Unser Profikoch kreiert in unserem Biofoodtruck jedes Menü speziell für Sie und Ihr Event.
                     <br />Ob eine Hochzeit, Geburtstag, Büro, ein 4-Gänge-Menue ab 30 Personen oder ein BBQ mit eigens aufgestelltem Grill. Wir haben die richtige Lösung für Sie.
@@ -30,13 +28,3 @@ const Catering = ({ data, location }) => {
 export const Head = () => <Seo title="About" />
 
 export default Catering
-
-export const pageQuery = graphql`
-    query {
-        site {
-            siteMetadata {
-                title
-            }
-        }
-    }
-`

@@ -346,7 +346,15 @@ a.header-logo:hover {
 }
 
 
-/* blog info */
+/* the rest */
+
+
+.hp-marquee {
+  height: 4.25rem;
+  color: #a80c0d;
+  font-size: 4rem;
+  font-weight: bolder;
+}
 
 .blog-container {
     width: 100%;
@@ -366,10 +374,10 @@ a.header-logo:hover {
     text-align: center;
 }
 
-
-
-.blog-post blockquote {
-    background-color: #f0f8ff;
+.inline-quote {
+  text-align: center;
+  font-weight: var(--fontWeight-bold);
+  width: 40%;
 }
 
 .blog-nav-header {
@@ -461,7 +469,6 @@ a.header-logo:hover {
     transform: scaleX(1);
 }
 
-
 .bio-grun {
   color: #54be23;
   font-weight: 600;
@@ -486,9 +493,7 @@ footer {
   text-align: center; 
   color: #fff;
   background-color: #b9304d;
-  /* text-transform: uppercase; */
   font-size: 0.875rem;
-  letter-spacing: 0.1625rem;
   padding: 0.5rem 0.5rem;
 }
 
@@ -520,5 +525,5 @@ footer a {
 }
 
 .social-icons img {
-  width: 25px;
+  width: 1rem;
 }
