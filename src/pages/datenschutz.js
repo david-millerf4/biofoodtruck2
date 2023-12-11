@@ -201,7 +201,7 @@ const Datenschutz = ({ location }) => {
                     der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von
                     Werbeinformationen, etwa durch Spam-E-Mails, vor.</p>
                 <hr />
-                <p>Quelle: <a href="https://www.e-recht24.de">www.e-recht24.de</a>, sowie durch den Datenschutzerklärungs-Generator der DGD Deutsche Gesellschaft für Datenschutz GmbH, die Datenschutz-Audit
+                <p>Quelle: <a target="_blank" rel="noopener noreferrer" href="https://www.e-recht24.de">www.e-recht24.de</a>, sowie durch den Datenschutzerklärungs-Generator der DGD Deutsche Gesellschaft für Datenschutz GmbH, die Datenschutz-Audit
                     durchführt, und in Kooperation mit der Medienrechtskanzlei WILDE BEUGER SOLMECKE erstellt.</p>
                 <p>Stand: 21.04.2023</p>
             </Col>

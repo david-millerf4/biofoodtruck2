@@ -525,5 +525,6 @@ footer a {
 }
 
 .social-icons img {
-  width: 1rem;
+  width: 16px;
+  max-width: 16px;
 }
