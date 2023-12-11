@@ -329,11 +329,11 @@ table thead tr th {
 
 a.header-logo {
     text-decoration: none;
-    padding: 8px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     font-weight: 700;
     color:var(--color-inverted-text);
     font-size: var(--fontSize-7);
-    margin: 0 12rem 0 0;
+    margin: 0 8rem 0 0;
 }
 
 a.header-logo:hover {

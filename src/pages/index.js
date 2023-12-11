@@ -17,7 +17,7 @@ const HomePage = ({ location }) => {
                 <h4>Bio - Regional - Frisch - Glutenfrei - Laktosefrei</h4>
 
                 <p>
-                    <StaticImage src="../images/biofoodtruck-hero.jpg" alt="photo of ruza nera bio foodtruck" />
+                    <StaticImage src="../images/biofoodtruck-hero.jpg" alt="photo of ruza nera bio foodtruck" width="1024" />
                 </p>
 
                 <h5>Foodtruck Catering für Ihr Event</h5>
