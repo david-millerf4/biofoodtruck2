@@ -19,7 +19,7 @@ module.exports = {
     siteBrand: `Ruza Nera Bio Foodtruck & Bio Catering`,
     siteUrl: `https://www.biofoodtruck.net/`,
     siteImage: `http://www.biofoodtruck.net/site_images/logo-biofoodtruck.jpg`,
-    keywords: `bio catering, bio foodtruck, bio burger, bio vegetarisch, bio vegan, bio regional, bio aus bayern, bio event catering, glutenfrei, laktosefrei, bio street food, bio streetfood, food truck, biofleisch, bio fleisch`,
+    keywords: `bio catering, bio foodtruck, bio burger, bio vegetarisch, bio vegan, bio regional, bio aus bayern, bio event catering, glutenfrei, laktosefrei, bio street food, bio streetfood, food truck, biofleisch, bio fleisch, organic, organic catering, gluten free, organic foodtruck, gluten free foodtruck, gluten free catering, organic bavaria`,
     social: {
       twitterUsername: `RuzaNera`,
       twitterUrl: `https://twitter.com/RuzaNera/`,

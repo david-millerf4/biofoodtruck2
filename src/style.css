@@ -277,12 +277,12 @@ table thead tr th {
         vertical-align: text-top;
 }
 
-.lead-in {
-    color: red;
-}
-
-
 /* Custom classes */
+
+hr.prime {
+  border: 3px solid #a80c0d;
+  opacity: 75%;
+}
 
 .global-wrapper {
     min-height: 100vh;
