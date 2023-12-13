@@ -8,7 +8,7 @@ const Biologo = () => {
     return (
         <Row className="justify-content-center">
             <Col className="bio-logo">
-                <StaticImage src="../images/biofoodtruck-oko-logo-cr.png" alt="bio image" />
+                <StaticImage src="../images/biofoodtruck-oko-logo-cr.png" alt="german and european union bio icons" width="400" />
                 <h4 className="bio-img-kontrol-text">Kontrolliert durch DE-ÖKO-037</h4>
             </Col>
         </Row>

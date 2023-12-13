@@ -1,6 +1,6 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Biologo from "../components/biologo"
@@ -36,13 +36,14 @@ const HomePage = ({ location }) => {
                     Unser mobile Kitchen ist nicht nur <strong>bio</strong>, sondern auch glutenfrei und transparent.
                 </p>
                 <p>
-                    Foodtruck Catering für Ihr Event.
+                    <Link to="/catering">Foodtruck Catering</Link> für Ihr Event.
                     <br />...transparentes Kochen in einer
                     <br />mobilen Küche…
                 </p>
-                <p>
-                    <strong className="bio-grun">Ois Bio. Keine Kompromisse.
+                <p className="bio-grun">
+                    <strong>Ois Bio. Keine Kompromisse.
                         <br />Natürlich sind wir biozertifiziert.</strong>
+                        <div><strong>Seit 2017</strong></div>
                 </p>
                 <Biologo />
             </Col>

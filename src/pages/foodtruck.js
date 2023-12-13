@@ -10,16 +10,22 @@ const Foodtruck = ({ location }) => {
     return (
         <Layout location={location}>
             <h1>BioFoodtruck</h1>
-            <p>Ausser auf speziellen Caterings und Events, finden Sie unseren <strong>Bio-Truck</strong> auf Konzerten, Festivals, Strassenecken und Hinterhöfen in München und Umgebung.
-                <br />Unsere Küche auf Rädern bietet frisches und gesundes Bio-Streetfood vor Ort mit kurzen Wartezeiten.
-                <br />Ob auf einem Waldweg, in einem Schwabinger Innenhof oder auf einer saftiggrünen Wiese in Oberbayern……wir kommen überall hin.
-            </p>
-            <StaticImage src="../images/bft_o2.jpg" alt="Business skyline with foodtruck side" style={{ width: `50%`, height: `25rem` }} />
-
+            <Row>
+                <Col lg={{ span: 7, offset: 1}}>
+                    <p>Ausser auf speziellen Caterings und Events, finden Sie unseren <strong>Bio-Truck</strong> auf Konzerten, Festivals, Strassenecken und Hinterhöfen in München und Umgebung.
+                        <br />Unsere Küche auf Rädern bietet frisches und gesundes Bio-Streetfood vor Ort mit kurzen Wartezeiten.
+                        <br />Ob auf einem Waldweg, in einem Schwabinger Innenhof oder auf einer saftiggrünen Wiese in Oberbayern……wir kommen überall hin.
+                    </p>
+                    <p className="inline-quote">Klappe auf und los gehts...<br />schnelle, gehobene Küche<br />immer frisch, immer bio, immer glutenfrei</p>
+                    <p>Mit einem wechselnden saisonalen, frischen Bio-Speisenangebot.</p>
+                </Col>
+                <Col>
+                    <StaticImage src="../images/bft_o2.jpg" alt="Business skyline with foodtruck side" />
+                </Col>
+            </Row>
             <Row className="inline-quote">
                 <Col className="inline-quote" lg={{ span: 5, offset: 3 }}>
-                <p>Klappe auf und los gehts...<br />schnelle, gehobene Küche<br />immer frisch, immer bio, immer glutenfrei</p>
-                <p>Mit einem wechselnden saisonalen, frischen Bio-Speisenangebot.</p>
+                    <p>Mit einem wechselnden saisonalen, frischen Bio-Speisenangebot.</p>
                 </Col>
             </Row>
                 <p><StaticImage src="../images/bft_okoP2.jpg" alt="Bio Foodtruck bei OkoP" style={{ width: `70%` }} /></p>
@@ -46,7 +52,7 @@ const Foodtruck = ({ location }) => {
             </ul>
 
             <h3>Hier die aktuellen Speisen:</h3>
-            <p><StaticImage src="../images/bft-burgerHero.jpg" alt="Big juicy burger - Lecker!" style={{ width: `60%` }} /></p>
+            <p><StaticImage src="../images/bft_burger_frisch.jpg" alt="Big juicy burger - Lecker!" height="700" /></p>
             <Biologo />
         </Layout>
     )

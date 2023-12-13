@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -18,6 +19,9 @@ const Catering = ({ location }) => {
                 </p>
                 <h2>Beispielmenues</h2>
                 <p>Fingerfood - Steaks - Grill - Burger - Tapas - Suppen - Pasta - Kuchen - Desserts - Salate ............</p>
+                <p>
+                    <StaticImage src="../images/Hamburgermediterran2.jpg" alt="image of hamburger mediterran" />
+                </p>
                 <h4>Foodtruck Catering für Ihr Event.</h4>
                 <p>Bitte <Link to="../kontakt">kontaktieren</Link> Sie uns. Wir erstellen Ihnen ein indivuelles Angebot <a href="mailto:biofoodtruck@web.de">biofoodtruck@web.de</a>.</p>
             </div>
