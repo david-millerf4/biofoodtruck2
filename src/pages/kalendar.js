@@ -33,7 +33,7 @@ const Kalendar = ({ location }) => {
                                 <td>08/10/23</td>
                                 <td>World of Bio, Haar</td>
                                 <td>Foodtruck</td>
-                                <td></td>
+                                <td>Party</td>
                             </tr>
                             <tr>
                                 <td>12/10/23</td>
