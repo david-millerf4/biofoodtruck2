@@ -49,7 +49,7 @@ const Kalendar = ({ location }) => {
                             </tr>
                             <tr>
                                 <td>14/12/23</td>
-                                <td>München</td>
+                                <td>Zorneding</td>
                                 <td>Catering</td>
                                 <td>Privat</td>
                             </tr>
