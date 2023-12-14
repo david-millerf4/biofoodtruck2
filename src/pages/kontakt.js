@@ -18,7 +18,7 @@ const Kontakt = ({ location }) => {
             <Biologo />
                 <h3>Bio Foodtruck & Catering Ruza Nera</h3>
                 <Row>
-                    <Col>
+                    <Col lg={{ span: 4 }}>
                         <address>
                             <strong>Ruza Nera Food&Art Foodtruck</strong><br />
                             Karina Schlaffer<br />
@@ -36,9 +36,9 @@ const Kontakt = ({ location }) => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col className="my-4 py-4">
+                    <Col className="my-4 py-4" lg={{ span: 8 }}>
                         <h2>Social</h2>
-                        <hr className="prime" style={{ width: `25rem` }} />
+                        <hr className="prime" />
                         <ul className="kontakt-social">
                             <li>Follow us:</li>
                             <li><a href="https://www.facebook.com/biofoodtruck/" target="_blank" rel="noopener noreferrer" className="social-icons social-facebook"><StaticImage src="../images/bookfaceIcon.png" alt="facebook logo" /></a></li>
@@ -48,9 +48,9 @@ const Kontakt = ({ location }) => {
                     </Col>
                 </Row>
             <Row>
-                <Col className="my-4 py-4">
+                <Col className="my-4 py-4" lg={{ span: 10 }}>
                     <h2>Art</h2>
-                    <hr className="prime" style={{ width: `35rem` }} />
+                    <hr className="prime" />
                     <p>
                         <b>URL: </b><a href="http://www.schlaffer.net/" target="_blank" rel="noopener noreferrer">Karina Schlaffer - Atelier 21</a>
                     </p>

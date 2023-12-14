@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@fontsource/josefin-sans": "^5.0.18",
+    "@fontsource/pt-serif": "^5.0.19",
     "bootstrap": "^5.3.2",
     "gatsby": "^5.12.12",
     "gatsby-plugin-feed": "^5.12.3",

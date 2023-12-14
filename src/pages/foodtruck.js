@@ -5,31 +5,41 @@ import Seo from "../components/seo"
 import Biologo from "../components/biologo"
 import Col from "react-bootstrap/Col"
 import Row from 'react-bootstrap/Row'
+import Slideshow from '../components/carousel'
 
 const Foodtruck = ({ location }) => {
     return (
         <Layout location={location}>
             <h1>BioFoodtruck</h1>
-            <Row>
-                <Col lg={{ span: 7, offset: 1}}>
-                    <p>Ausser auf speziellen Caterings und Events, finden Sie unseren <strong>Bio-Truck</strong> auf Konzerten, Festivals, Strassenecken und Hinterhöfen in München und Umgebung.
-                        <br />Unsere Küche auf Rädern bietet frisches und gesundes Bio-Streetfood vor Ort mit kurzen Wartezeiten.
-                        <br />Ob auf einem Waldweg, in einem Schwabinger Innenhof oder auf einer saftiggrünen Wiese in Oberbayern……wir kommen überall hin.
+            <p>
+                Ausser auf speziellen Caterings und Events, finden Sie unseren <strong>Bio-Foodtruck</strong> auf Konzerten, Festivals, Strassenecken und Hinterhöfen in München und Umgebung.
+            </p>
+            <Row className="my-4">
+                <Col lg={{ span: 7 }}>
+                    <p>
+                        Unsere Küche auf Rädern bietet frisches und gesundes Bio-Streetfood vor Ort mit kurzen Wartezeiten.
                     </p>
-                    <p className="inline-quote">Klappe auf und los gehts...<br />schnelle, gehobene Küche<br />immer frisch, immer bio, immer glutenfrei</p>
-                    <p>Mit einem wechselnden saisonalen, frischen Bio-Speisenangebot.</p>
+                    <p>Ob auf einem Waldweg, in einem Schwabinger Innenhof oder auf einer saftiggrünen Wiese in Oberbayern……wir kommen überall hin.</p>
+                    
+                    <Col lg={{ span: 10, offset: 1}} className="py-4 my-4">
+                        <p className="inline-quote">Klappe auf und los gehts...<br />schnelle, gehobene Küche<br />immer frisch, immer bio, immer glutenfrei</p>
+                    </Col>
                 </Col>
                 <Col>
                     <StaticImage src="../images/bft_o2.jpg" alt="Business skyline with foodtruck side" />
                 </Col>
             </Row>
-            <Row className="inline-quote">
-                <Col className="inline-quote" lg={{ span: 5, offset: 3 }}>
+            <Row>
+                <Col lg={{ span: 8}}>
+                    <StaticImage src="../images/bft_okoP2.jpg" alt="Bio Foodtruck bei OkoP" />
+                </Col>
+                <Col className="py-4 inline-quote" style={{marginTop: "5rem"}}>
                     <p>Mit einem wechselnden saisonalen, frischen Bio-Speisenangebot.</p>
+                    <p>
+                        Alles aus 100% Kontrolliert Biologischem Anbau
+                    </p>
                 </Col>
             </Row>
-                <p><StaticImage src="../images/bft_okoP2.jpg" alt="Bio Foodtruck bei OkoP" style={{ width: `70%` }} /></p>
-
             <h3>AKTUELLE SPEISEKARTE</h3>
             <p>Gutes vom Grill, aus dem Topf und aus der Pfanne. Ois <strong>Bio</strong> und glutenfrei. Ois hausgemacht.</p>
             <div><StaticImage src="../images/WochenkarteJuni28-19..jpg" alt="Speisekarte examplar" /></div>
@@ -42,17 +52,26 @@ const Foodtruck = ({ location }) => {
                 <li>Hackbällchen (<strong className="bio-grun">100 % Biorind</strong>) mit Gemüsesugo und Pasta</li>
                 <li>Veggi-Burger mit Grillgemüse und Mozzarella</li>
                 <li>Linseneintopf mit Süsskartoffel und Ingwer</li>
+                <li>Kurbis Ingwer Kokonuss Suppe</li>
                 <li>Hirtensalat</li>
                 <li>mediterraner Quinoasalat</li>
                 <li>Hamburger Classic (<strong className="bio-grun">100 % Biorind</strong>)</li>
                 <li>Hamburger mediterrano (<strong className="bio-grun">100 % Biorind</strong>)</li>
                 <li>vegetarische und vegane Tapas</li>
                 <li>Bärlauchbratwürste</li>
+                <li>Hänhchenspiese</li>
+                <li>Glutenfrei Brownies</li>
+                <li>Zitrone Cupcakes</li>
                 <li><strong>Now</strong> Getränke von Lammsbräu</li>
             </ul>
 
             <h3>Hier die aktuellen Speisen:</h3>
             <p><StaticImage src="../images/bft_burger_frisch.jpg" alt="Big juicy burger - Lecker!" height="700" /></p>
+            <Row>
+                <Col lg={{ span:6, offset: 3 }}>
+                    <Slideshow />
+                </Col>
+            </Row>
             <Biologo />
         </Layout>
     )
