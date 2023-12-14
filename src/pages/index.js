@@ -4,49 +4,56 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Biologo from "../components/biologo"
+import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 const HomePage = ({ location }) => {
 
     return (
         <Layout location={location}>
-            <Col className="text-center">
-                <h1 className="hp-marquee">Ruza Nera</h1>
-                <h2>Bio Foodtruck & Bio Catering</h2>
-                <h3 className="bio-grun">100% Bio-Zertifiziert</h3>
-                <h4>Bio - Regional - Frisch - Glutenfrei - Laktosefrei</h4>
+            <Row>
+                <Col className="text-center">
+                    <h1 className="hp-marquee">Ruza Nera</h1>
+                </Col>
+            </Row>
+            <Row>
+                <Col className="text-center">
+                    <h2>Bio Foodtruck & Bio Catering</h2>
+                    <h3 className="bio-grun">100% Bio-Zertifiziert</h3>
+                    <h4>Bio - Regional - Frisch - Glutenfrei - Laktosefrei</h4>
 
-                <p>
-                    <StaticImage src="../images/biofoodtruck-hero.jpg" alt="photo of ruza nera bio foodtruck" width="1024" />
-                </p>
+                    <p>
+                        <StaticImage src="../images/biofoodtruck-hero.jpg" alt="photo of ruza nera bio foodtruck" width="1024" />
+                    </p>
 
-                <h5>Foodtruck Catering für Ihr Event</h5>
-                <p>
-                    Wir bereiten die Speisen, soweit es möglich ist, frisch in unserem Biofoodtruck vor Ort für Sie zu.
-                    <br />Dabei können Sie dem Koch über die Schulter schauen, die Flammen lodern sehen und den Duft von frischen Kräutern geniessen.
-                </p>
-                <p>
-                    Alle Zutaten und Produkte werden von uns sorgfältig ausgewählt….beim <strong>Biobauern</strong> im nächsten Dorf oder bei einem <strong>biozertifizierten</strong> Hersteller unseres Vertrauens.
-                    <br />Unser Speisenangebot ist sehr flexibel (vielfältig).
-                </p>
-                <p>
-                    Je nach Saison und Angebot zaubert unser Profikoch Zoran schmackhaftes, frisches bio- und glutenfreies Essen aus der Pfanne oder vom Grill.
-                </p>
-                <p>
-                    Unser mobile Kitchen ist nicht nur <strong>bio</strong>, sondern auch glutenfrei und transparent.
-                </p>
-                <p>
-                    <Link to="/catering">Foodtruck Catering</Link> für Ihr Event.
-                    <br />...transparentes Kochen in einer
-                    <br />mobilen Küche…
-                </p>
-                <p className="bio-grun">
-                    <strong>Ois Bio. Keine Kompromisse.
-                        <br />Natürlich sind wir biozertifiziert.</strong>
-                        <div><strong>Seit 2017</strong></div>
-                </p>
-                <Biologo />
-            </Col>
+                    <h5>Foodtruck Catering für Ihr Event</h5>
+                    <p>
+                        Wir bereiten die Speisen, soweit es möglich ist, frisch in unserem Biofoodtruck vor Ort für Sie zu.
+                        <br />Dabei können Sie dem Koch über die Schulter schauen, die Flammen lodern sehen und den Duft von frischen Kräutern geniessen.
+                    </p>
+                    <p>
+                        Alle Zutaten und Produkte werden von uns sorgfältig ausgewählt….beim <strong>Biobauern</strong> im nächsten Dorf oder bei einem <strong>biozertifizierten</strong> Hersteller unseres Vertrauens.
+                        <br />Unser Speisenangebot ist sehr flexibel (vielfältig).
+                    </p>
+                    <p>
+                        Je nach Saison und Angebot zaubert unser Profikoch Zoran schmackhaftes, frisches bio- und glutenfreies Essen aus der Pfanne oder vom Grill.
+                    </p>
+                    <p>
+                        Unser mobile Kitchen ist nicht nur <strong>bio</strong>, sondern auch glutenfrei und transparent.
+                    </p>
+                    <p>
+                        <Link to="/catering">Foodtruck Catering</Link> für Ihr Event.
+                        <br />...transparentes Kochen in einer
+                        <br />mobilen Küche…
+                    </p>
+                    <p className="bio-grun">
+                        <strong>Ois Bio. Keine Kompromisse.
+                            <br />Natürlich sind wir biozertifiziert.</strong>
+                            <div><strong>Seit 2017</strong></div>
+                    </p>
+                    <Biologo />
+                </Col>
+            </Row>
         </Layout>
     )
 }
