@@ -319,7 +319,6 @@ a.header-logo:hover {
 
 
 .hp-marquee {
-  /* height: 4.25rem; */
   color: #a80c0d;
   font-size: 4rem;
   font-weight: bolder;
@@ -347,27 +346,6 @@ a.header-logo:hover {
   text-align: center;
   font-weight: var(--fontWeight-bold);
   /* width: 40%; */
-}
-
-.blog-nav-header {
-    margin: 0 0 0.5rem 0;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    font-size: 2.5rem;
-    line-height: 1.167;
-    text-align: center;
-}
-
-.blog-nav-container {
-    width: 100%;
-    padding: 0px 16px;
-    justify-self: center;
-    max-width: calc(1176px);
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    justify-items: stretch;
-    margin: 1rem 0 0;
 }
 
 .updated-blog {
@@ -496,4 +474,15 @@ footer a {
 .social-icons img {
   width: 16px;
   max-width: 16px;
+}
+
+.carousel-indicators::after {
+    background: no-repeat center/100% url("./images/biofoodtruck-logo.jpg");
+    position: absolute;
+    left: -81px;
+    top: -46px;
+    content: "";
+    margin: 0.35rem 0 0 0;
+    height: 5rem;
+    width: 5rem;
 }
