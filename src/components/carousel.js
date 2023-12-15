@@ -9,7 +9,7 @@ const Slideshow = () => {
             <Carousel.Item>
                 <StaticImage src="../images/suppe.png" alt="Kurbis Ingwer Kokonuss Suppe" />
                 <Carousel.Caption>
-                    <h3>Kurbis Ingwer Kokonuss Suppe</h3>
+                    <h3>Kurbis Ingwer Suppe</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
