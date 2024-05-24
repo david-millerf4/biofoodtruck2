@@ -27,13 +27,8 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: "Josefin Sans", system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Noto Color Emoji";
-  --fontFamily-serif: "PT Serif", "Georgia", "Times New Roman",
-    Times, serif;
-  --font-body: var(--fontFamily-serif);
+  --fontFamily-sans: Verdana, Arial, "Helvetica sans-serif";
+  --font-body: var(--fontFamily-sans);
   --font-heading: var(--fontFamily-sans);
   --fontWeight-normal: 400;
   --fontWeight-bold: 700;
@@ -119,11 +114,6 @@ footer p {
     margin-bottom: 0;
 }
 
-hr {
-  background: var(--color-accent);
-  height: 1px;
-  border: 0;
-}
 
 /* Heading */
 
@@ -192,12 +182,8 @@ h6 > a {
 /* Prose */
 
 p {
-  line-height: var(--lineHeight-relaxed);
-  font-size: var(--fontSize-115);
-  --baseline-multiplier: 0.179;
-  --x-height-multiplier: 0.35;
-  margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
-  padding: var(--spacing-0);
+  font-size: 14px;
+  font-weight: 400;
 }
 
 ul,
@@ -249,40 +235,10 @@ blockquote > ol {
   list-style-position: inside;
 }
 
-/* table {
-  width: 100%;
-  margin-bottom: var(--spacing-8);
-  border-collapse: collapse;
-  border-spacing: 0.25rem;
-}
-
-table thead tr th {
-  border-bottom: 1px solid var(--color-accent);
-} */
-
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
 }
-
-.lead-in {
-  color: #7a6216;
-      float: left;
-      padding-right: 8px;
-      font-family: Georgia, serif;
-      font-size: 111px;
-      line-height: 92px;
-      text-transform: uppercase;
-      box-sizing: border-box;
-      margin-right: 8px;
-      vertical-align: text-top;
-}
-
 /* Custom classes */
-
-hr.prime {
-  border: 3px solid #a80c0d;
-  opacity: 75%;
-}
 
 /* Header */
 
@@ -320,54 +276,14 @@ a.header-logo:hover {
 
 .hp-marquee {
   color: #a80c0d;
-  font-size: 4rem;
-  font-weight: bolder;
+  font-size: 64.8px;
+  font-weight: 700;
 }
 
-.blog-container {
-    width: 100%;
-    padding: 24px 16px 0;
-    max-width: calc(994px);
+.hp-header {
+    font-size: 36px;
+    font-weight: 700;
 }
-
-.blog-hero {
-    margin-bottom: rem;
-}
-
-.blog-header, .blog-post-header, .blog-preview-header {
-    font-size: var(--fontSize-5);
-    font-weight: var(--fontWeight-bold);
-    color: var(--color-primary);
-    margin: 1.5rem 0;
-    text-align: center;
-}
-
-.inline-quote {
-  text-align: center;
-  font-weight: var(--fontWeight-bold);
-  /* width: 40%; */
-}
-
-.updated-blog {
-    background-color: #ef0a0a;
-    color: #fff;
-    font-weight: 500;
-    font-size: 1rem;
-    text-align: center;
-    padding: 0 0.75rem;
-    position: relative;
-    /* animation: 5s linear 2s infinite backwards slidein; */
-}
-@keyframes slidein {
-    from {
-        background-color: red;
-        color: white;
-      }
-      to {
-        background-color: orange;
-        color: red;
-      }
-  }
 
 /* Links */
 
@@ -376,64 +292,25 @@ a.header-logo:hover {
     text-decoration: none;
   }
 
-.styled-link {
-    display: inline-block;
-    text-decoration: none;
-    background-color: inherit;
-}
-
-.styled-link:hover {
-    color: var(--color-accent);
-}
-
-.styled-link::after {
-    display: block;
-    content: "";
-    width: 100%;
-    height: 2px;
-    background-color: var(--color-accent);
-    transition: transform 300ms ease 0s;
-    transform: scaleX(0);
-}
-
 .styled-link:hover::after {
     transform: scaleX(1);
 }
 
 .header-nav-link {
     text-decoration: none;
-    font-family: var(--font-heading);
-    font-weight: 700;
-    font-size: 1rem;
+    font-family: Trebuchet MS, veranda, Arial, Helvetica, sans-serif;
+    font-size: 14px;
     line-height: 1.25;
     text-transform: uppercase;
     padding: 12px 16px;
     text-align: center;
-    color: var(--color-inverted-text);
-}
-
-.styled-link.header-nav-link-active::after {
-    transform: scaleX(1);
-}
-
-.bio-grun {
-  color: #54be23;
-  font-weight: 600;
+    color: #ffffff;
 }
 
 .bio-logo {
   text-align: center;
   max-width: 300px;
   margin-bottom: 1.45rem;
-}
-
-.kalendar-list {
-  border: 1px solid #ccc;
-  padding: 1rem;
-}
-
-.kalendar-list > li, .kalendar-list > li > ul > li {
-  list-style: none;
 }
 
 footer {
@@ -474,15 +351,4 @@ footer a {
 .social-icons img {
   width: 16px;
   max-width: 16px;
-}
-
-.carousel-indicators::after {
-    background: no-repeat center/100% url("./images/biofoodtruck-logo.jpg");
-    position: absolute;
-    left: -81px;
-    top: -46px;
-    content: "";
-    margin: 0.35rem 0 0 0;
-    height: 5rem;
-    width: 5rem;
 }

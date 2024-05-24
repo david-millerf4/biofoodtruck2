@@ -13,7 +13,7 @@ const Kontakt = ({ location }) => {
             <h1>Kontakt</h1>
             <h2>RuzaNera Food &amp; Art Biofoodtruck</h2>
             <p>
-                Wir sind <strong className="bio-grun">100% Bio-zertifiziert Seit 2017</strong>
+                Wir sind <strong>100% Bio-zertifiziert Seit 2017</strong>
             </p>
             <Biologo />
                 <h3>Bio Foodtruck & Catering Ruza Nera</h3>
@@ -24,15 +24,10 @@ const Kontakt = ({ location }) => {
                             Karina Schlaffer<br />
                             Edeltraudstr. 21<br />
                             81827 München<br />
-                            <hr style={{ width: `15rem` }} />
                             <b>Tel.: </b>0 89 / 92 58 23 09<br />
                             <b>Mobil: </b>0 15 25 33 79 376
-                            <hr style={{ width: `15rem` }} />
                             <b>E-Mail: </b><a href="mailto:biofoodtruck@web.de">biofoodtruck@web.de</a>
                         </address>
-                    </Col>
-                    <Col>
-                        <StaticImage src="../images/biofoodtruck_hintern.jpg" alt="image of rear of biofoodtruck with contact information" />
                     </Col>
                 </Row>
                 <Row>

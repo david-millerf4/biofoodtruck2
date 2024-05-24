@@ -16,12 +16,11 @@ const Navigation = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="mx-3" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Link to="/" className="header-nav-link styled-link">Home</Link>
-                        <Link to="/catering" className="header-nav-link styled-link">Bio catering</Link>
-                        <Link to="/foodtruck" className="header-nav-link styled-link">Bio foodtruck</Link>
-                        <Link to="/kalendar" className="header-nav-link styled-link">kalender</Link>
-                        <Link to="/aboutUs" className="header-nav-link styled-link">about us</Link>
-                        <Link to="/kontakt" className="header-nav-link styled-link">kontakt</Link>
+                        <Link to="/" className="header-nav-link">Home</Link>
+                        <Link to="/catering" className="header-nav-link ">Bio catering</Link>
+                        <Link to="/foodtruck" className="header-nav-link">Bio foodtruck</Link>
+                        <Link to="/aboutUs" className="header-nav-link">about us</Link>
+                        <Link to="/kontakt" className="header-nav-link">kontakt</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

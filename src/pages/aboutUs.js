@@ -17,13 +17,12 @@ const AboutUs = ({ location }) => {
                     <li>Ohne Zusatzstoffe und Geschmacksverstärker</li>
                     <li>Das Fleisch kommt ausschliesslich von <strong>biozertifizierten</strong> Höfen, auf denen die Tiere ein artgerechtes Leben haben</li>
                     <li>Das Gemüse und Obst wird nicht mit Pestiziden oder anderen giftigen Stoffen behandelt</li>
-                    <li>Unsere Speisen sind <strong className="bio-grun">100% Bio-zertifiziert</strong>, glutenfrei, und laktosefrei</li>
+                    <li>Unsere Speisen sind <strong>100% Bio-zertifiziert</strong>, glutenfrei, und laktosefrei</li>
                 </ul>
             <Biologo />
             <Row>
                 <Col>
                     <h2>Wir sind ein Familienunternehmen</h2>
-                    <hr className="prime"></hr>
                 </Col>
             </Row>
            
@@ -46,7 +45,6 @@ const AboutUs = ({ location }) => {
             <Row>
                 <Col>
                     <h3>Food & Art</h3>
-                    <hr className="prime"></hr>
                 </Col>
             </Row>
             <Row>
@@ -56,9 +54,6 @@ const AboutUs = ({ location }) => {
                     <p>Mein andere leben als Diplom Grafik-Designerin: <a href="http://www.schlaffer.net/" target="_blank" rel="noopener noreferrer">Karina Schlaffer - Atelier 21</a></p>
                 </Col>
             </Row>
-            <p>
-            <StaticImage src="../images/biofoodtruck-art-beispiel-schlaffernet.png" alt="beispiel grafik art from schlaffer net" />
-            </p>
             
         </Layout>
     )
