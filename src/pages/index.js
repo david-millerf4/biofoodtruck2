@@ -11,13 +11,13 @@ const HomePage = ({ location }) => {
 
     return (
         <Layout location={location}>
-            <Row>
+            <Row className="gx-0">
                 <Col className="text-center">
                     <h1 className="hp-marquee">RuzaNera</h1>
                 </Col>
             </Row>
-            <Row>
-                <Col className="text-center">
+            <Row className="gx-0">
+                <Col className="text-center textblock">
                     <p>
                         <StaticImage src="../images/biofoodtruck-hero.jpg" alt="photo of ruza nera bio foodtruck" width="1024" />
                     </p>

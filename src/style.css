@@ -27,7 +27,7 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: Verdana, Arial, "Helvetica sans-serif";
+  --fontFamily-sans: Arial, Helvetica, sans-serif;
   --font-body: var(--fontFamily-sans);
   --font-heading: var(--fontFamily-sans);
   --fontWeight-normal: 400;
@@ -266,8 +266,9 @@ a.header-logo:hover {
 }
 
 .header-nav {
-    min-height: 48px;
-    display: flex;
+    min-height: 34px;
+    font-family: Trebuchet MS, veranda, Arial, Helvetica, sans-serif;
+    /* display: flex; */
 }
 
 
@@ -351,4 +352,9 @@ footer a {
 .social-icons img {
   width: 16px;
   max-width: 16px;
+}
+
+/**** Old styles ****/
+.textblock {
+  margin: 10px 15px 20px 15px;
 }
