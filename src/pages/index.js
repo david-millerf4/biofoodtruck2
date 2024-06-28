@@ -22,8 +22,9 @@ const HomePage = ({ location }) => {
                         <StaticImage src="../images/biofoodtruck-hero.jpg" alt="photo of ruza nera bio foodtruck" width="1024" />
                     </p>
 
-                    <h4 className="hp-header">bio - regional - frisch - glutenfrei</h4>
-                    <p className="text-center">Wir bereiten die Speisen, soweit es möglich ist, frisch in unserem Biofoodtruck vor Ort für Sie zu.
+                    <h1 className="xl-text">bio - regional - frisch - glutenfrei</h1>
+                    <p className="text-center" style={{fontFamily: "arial, helvetica, sans-serif"}}>
+                        Wir bereiten die Speisen, soweit es möglich ist, frisch in unserem Biofoodtruck vor Ort für Sie zu.
                         <br />Dabei können Sie dem Koch über die Schulter schauen,
                         die Flammen lodern sehen
                         <br />und den Duft von frischen Kräutern geniessen.
@@ -33,19 +34,21 @@ const HomePage = ({ location }) => {
                         <br />
                         Je nach Saison und Angebot zaubert unser Profikoch Zoran schmackhaftes,
                         <br />frisches bio- und glutenfreies Essen aus der Pfanne oder vom Grill.
-                        <br /></p>
-                    <p>
+                        <br />
+                    </p>
+                    <p className="callout-text lg-text">
                         Unser mobile Kitchen ist nicht nur <strong>bio</strong>, sondern auch glutenfrei und transparent.
                     </p>
-                    <p>
-                        <Link to="/catering">Foodtruck Catering</Link> für Ihr Event.
-                        <br />...transparentes Kochen in einer
-                        <br />mobilen Küche…
+                    <p className="callout-text lg-text">
+                        <Link to="/catering">Foodtruck Catering</Link> für Ihren Event.
+                    </p>
+                    <p className="callout-text xl-text">
+                        …..transparentes Kochen in einer <br />mobilen Küche….<br />und sind 100% Bio-Zertifiziert
                     </p>
                     <p>
                         <strong>Ois Bio. Keine Kompromisse.
                             <br />Natürlich sind wir biozertifiziert.</strong>
-                            <div><strong>Seit 2017</strong></div>
+                        <div><strong>Seit 2017</strong></div>
                     </p>
                     <Biologo />
                 </Col>
