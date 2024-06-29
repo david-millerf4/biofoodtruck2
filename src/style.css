@@ -334,3 +334,14 @@ body {
    p.bio-img-kontrol-text {
     padding-top: 1rem;
    }
+
+   ul.list-text {
+    text-align: left;
+    max-width: 75%;
+    margin: 0.25rem 2rem 2rem auto;
+    transform: translateX(-15%);
+   }
+
+   p address {
+    text-align: left;
+   }
