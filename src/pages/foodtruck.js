@@ -3,38 +3,29 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Biologo from "../components/biologo"
-import Col from "react-bootstrap/Col"
-import Row from 'react-bootstrap/Row'
 
 const Foodtruck = ({ location }) => {
     return (
         <Layout location={location}>
-            <h1>BioFoodtruck</h1>
-            <p>
-                Ausser auf speziellen Caterings und Events, finden Sie unseren <strong>Bio-Foodtruck</strong> auf Konzerten, Festivals, Strassenecken und Hinterhöfen in München und Umgebung.
+            <h1 className="callout-text xl-text">BioFoodtruck</h1>
+            <p className="text-center" style={{ fontFamily: "arial, helvetica, sans-serif" }}>
+                Ausser auf speziellen Caterings, Events, finden Sie unseren Bio-Truck auf Konzerten,
+                <br />Festivals, Brauereien, Strassenecken in München und Umgebung.
+                <br />Unsere Küche auf Rädern bietet frisches und gesundes Streetfood vor Ort  mit kurzen Wartezeiten.
+                <br />Ob auf einem Waldweg, in einem schwabinger Innenhof
+                <br />oder auf einer saftiggrünen Wiese in Oberbayern……wir kommen überall hin….
             </p>
-            <Row className="my-4">
-                <Col lg={{ span: 7 }}>
-                    <p>
-                        Unsere Küche auf Rädern bietet frisches und gesundes Bio-Streetfood vor Ort mit kurzen Wartezeiten.
-                    </p>
-                    <p>Ob auf einem Waldweg, in einem Schwabinger Innenhof oder auf einer saftiggrünen Wiese in Oberbayern……wir kommen überall hin.</p>
-                    
-                    <Col>
-                        <p>Klappe auf und los gehts...<br />schnelle, gehobene Küche<br />immer frisch, immer bio, immer glutenfrei</p>
-                    </Col>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <p>Mit einem wechselnden saisonalen, frischen Bio-Speisenangebot.</p>
-                    <p>
-                        Alles aus 100% Kontrolliert Biologischem Anbau
-                    </p>
-                </Col>
-            </Row>
+            <h2 className="callout-text lg-text">
+                Klappe auf und los gehts...<br />schnelle, gehobene Küche<br />immer frisch, immer bio, immer glutenfrei
+            </h2>
+            <h3 className="callout-text lg-text">
+                Mit einem wechselnden saisonalen, frischen Bio-Speisenangebot.
+            </h3>
+            <h3 className="callout-text lg-text">
+                Alles aus 100% Kontrolliert Biologischem Anbau
+            </h3>
             <h3>AKTUELLE SPEISEKARTE</h3>
-            <p>Gutes vom Grill, aus dem Topf und aus der Pfanne. Ois <strong>Bio</strong> und glutenfrei. Ois hausgemacht.</p>
+            <h4 className="callout-text lg-text">Gutes vom Grill, aus dem Topf und aus der Pfanne. Ois <strong>Bio</strong> und glutenfrei. Ois hausgemacht.</h4>
             <div><StaticImage src="../images/WochenkarteJuni28-19..jpg" alt="Speisekarte examplar" /></div>
             <p>Hier ein paar Bilder von unseren Speisen:</p>
             <p>
@@ -57,9 +48,10 @@ const Foodtruck = ({ location }) => {
                 <li>Zitrone Cupcakes</li>
                 <li><strong>Now</strong> Getränke von Lammsbräu</li>
             </ul>
-
             <h3>Hier die aktuellen Speisen:</h3>
-            <p><StaticImage src="../images/bft_burger_frisch.jpg" alt="Big juicy burger - Lecker!" height="700" /></p>
+            <p>
+                <StaticImage src="../images/bft_burger_frisch.jpg" alt="Big juicy burger - Lecker!" height="700" />
+            </p>
             <Biologo />
         </Layout>
     )

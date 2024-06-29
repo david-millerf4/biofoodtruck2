@@ -9,7 +9,7 @@ const Biologo = () => {
         <Row className="justify-content-center">
             <Col className="bio-logo">
                 <StaticImage src="../images/biofoodtruck-oko-logo-cr.png" alt="german and european union bio icons" width="497" />
-                <h4 className="bio-img-kontrol-text">Kontrolliert durch</h4>
+                <p className="lg-text bio-img-kontrol-text mb-0" style={{fontFamily: "arial, helvetica, sans-serif"}}>Kontrolliert durch</p>
                 <h4 className="xl-text">DE-ÖKO-037</h4>
             </Col>
         </Row>

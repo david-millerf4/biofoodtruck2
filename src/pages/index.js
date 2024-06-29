@@ -22,7 +22,7 @@ const HomePage = ({ location }) => {
                         <StaticImage src="../images/biofoodtruck-hero.jpg" alt="photo of ruza nera bio foodtruck" width="1024" />
                     </p>
 
-                    <h1 className="xl-text">bio - regional - frisch - glutenfrei</h1>
+                    <h2 className="xl-text">bio - regional - frisch - glutenfrei</h2>
                     <p className="text-center" style={{fontFamily: "arial, helvetica, sans-serif"}}>
                         Wir bereiten die Speisen, soweit es möglich ist, frisch in unserem Biofoodtruck vor Ort für Sie zu.
                         <br />Dabei können Sie dem Koch über die Schulter schauen,
