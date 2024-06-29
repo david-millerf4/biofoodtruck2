@@ -9,7 +9,7 @@ import Navbar from "react-bootstrap/Navbar"
 const Navigation = () => {
 
     return (
-        <Col className="mb-4 global-header">
+        <Col className="global-header">
             <Row className="gx-0">
                 <Col className="some-background">
                     hi

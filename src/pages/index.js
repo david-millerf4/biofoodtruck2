@@ -13,7 +13,7 @@ const HomePage = ({ location }) => {
         <Layout location={location}>
             <Row className="gx-0">
                 <Col className="text-center">
-                    <h1 className="hp-marquee">RuzaNera</h1>
+                    <h1 className="callout-text hp-marquee">RuzaNera</h1>
                 </Col>
             </Row>
             <Row className="gx-0">
