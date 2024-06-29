@@ -27,7 +27,7 @@ const AboutUs = ({ location }) => {
             </p>
             <h2>Wir sind ein Familienunternehmen</h2>
             <p>
-                <StaticImage id="Truck1" src="../images/bft-gruene-profile.jpg" alt="Karina and Zoran" />
+                <StaticImage id="Truck1" src="../images/TruckKandZkl.jpg" alt="Karina and Zoran" />
             </p>
             <p className="lg-text" style={{fontFamily: "arial, helvetica, sans-serif"}}>Zoran ist unser Profikoch, er zaubert schmackhafte Speisen.</p>
             <p>
@@ -43,7 +43,7 @@ const AboutUs = ({ location }) => {
                 <StaticImage src="../images/biofoodtruck-logo.jpg" alt="Bio Foodtruck food and art logo" />
             </p>
             <p>
-                Mein andere leben als Diplom Grafik-Designerin: <a href="http://www.schlaffer.net/" target="_blank" rel="noopener noreferrer">Karina Schlaffer - Atelier 21</a>
+                <a href="http://www.schlaffer.net/" target="_blank" rel="noopener noreferrer">Karina Schlaffer - Atelier 21</a>
             </p>
             <Biologo />
         </Layout>

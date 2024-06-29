@@ -24,6 +24,7 @@ const Kontakt = ({ location }) => {
                         <b>E-Mail: </b><a href="mailto:biofoodtruck@web.de">biofoodtruck@web.de</a>
                     </address>
                 </p>
+                <StaticImage src="../images/biofoodtruck_hintern.jpg" height="450" />
                 <h2 className="callout-text lg-text">Social</h2>
                 <hr className="prime" />
                 <ul className="kontakt-social">
@@ -41,10 +42,10 @@ const Kontakt = ({ location }) => {
                     <b>Email: </b><a href="mailto:kschlaffer@web.de">kschlaffer@web.de</a>
                 </p>
                 <p>
-                    <StaticImage id="Truck2" src="../images/bft-sandNight.jpg" alt="image of biofoodtruck at night with klappe auf and lighted" width="800" />
+                    <StaticImage id="Truck2" src="../images/bft-sandNight.jpg" alt="image of biofoodtruck at night with klappe auf and lighted" width="550" />
                 </p>
                 <p>
-                    <StaticImage id="Truck2" src="../images/bft-gruene.jpg" alt="biofoodtruck mit Grün partie" width="700" />
+                    <StaticImage id="Truck3" src="../images/Sandizell18.jpg" alt="biofoodtruck mit Grün partie" width="700" />
                 </p>
 
             <Biologo />

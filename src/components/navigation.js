@@ -16,10 +16,10 @@ const Navigation = () => {
             <Col xs={12} md={6} className="w-25 p-3">
                 <StaticImage src="../images/biofoodtruck-logo.jpg" width="110" />
             </Col>
-            <Col>
+            <Col className="px-0">
                 <Row className="mx-0">
-                    <Col className="header-bg" style={{height: "100px"}}>
-                        <StaticImage src="../images/Headerhome.png" height="100" width="600" />
+                    <Col className="header-bg">
+                        <Link to="/"><StaticImage src="../images/Headerhome.png" height="100" width="600" /></Link>
                     </Col>
                 </Row>
                 <Row>
@@ -30,9 +30,9 @@ const Navigation = () => {
                             </Navbar.Brand> */}
                             <Navbar.Toggle aria-controls="basic-navbar-nav" className="mx-3" />
                             <Navbar.Collapse id="basic-navbar-nav">
-                                <Nav className="me-auto">
+                                <Nav className="me-1    ">
                                     <Link to="/" className="header-nav-link">Home</Link>
-                                    <Link to="/catering" className="header-nav-link ">Bio catering</Link>
+                                    <Link to="/catering" className="header-nav-link">Bio catering</Link>
                                     <Link to="/foodtruck" className="header-nav-link">Bio foodtruck</Link>
                                     <Link to="/aboutUs" className="header-nav-link">about us</Link>
                                     <Link to="/kontakt" className="header-nav-link">kontakt</Link>
