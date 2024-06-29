@@ -40,7 +40,7 @@ const HomePage = ({ location }) => {
                         Unser mobile Kitchen ist nicht nur <strong>bio</strong>, sondern auch glutenfrei und transparent.
                     </p>
                     <p className="callout-text lg-text">
-                        <Link to="/catering">Foodtruck Catering</Link> für Ihren Event.
+                        <Link to="/catering">BioFoodtruck Catering</Link> für Ihren Event.
                     </p>
                     <p className="callout-text xl-text">
                         …..transparentes Kochen in einer <br />mobilen Küche….<br />und sind 100% Bio-Zertifiziert

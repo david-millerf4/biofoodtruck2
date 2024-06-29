@@ -98,7 +98,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font: arial, helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
   color: black;
   background-color: #ccc;
   text-align: center;
@@ -200,7 +200,6 @@ body {
     z-index: 1100;
     background-color: #a80c0d;
     color: rgba(0, 0, 0, 0.87);
-    font-family: var(--font-heading);
   }
 
   a.header-logo {
@@ -249,9 +248,10 @@ body {
     font-size: 14px;
     line-height: 1.25;
     text-transform: uppercase;
-    padding: 12px 16px;
     text-align: center;
     color: #ffffff;
+    padding: 8px 0;
+    margin: 0 5px;
   }
 
   .bio-logo {
@@ -344,4 +344,12 @@ body {
 
    p address {
     text-align: left;
+   }
+
+   .header-bg {
+    position: 	relative;
+		bottom:	0px;
+    left:		10px;
+    display: flex;
+    justify-content: right;
    }
