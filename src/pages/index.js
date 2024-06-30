@@ -11,45 +11,43 @@ const HomePage = ({ location }) => {
 
     return (
         <Layout location={location}>
-            <Row>
+            <Row className="gx-0">
                 <Col className="text-center">
-                    <h1 className="hp-marquee">Ruza Nera</h1>
+                    <h1 className="callout-text hp-marquee">RuzaNera</h1>
                 </Col>
             </Row>
-            <Row>
-                <Col className="text-center">
-                    <h2>Bio Foodtruck & Bio Catering</h2>
-                    <h3 className="bio-grun">100% Bio-Zertifiziert</h3>
-                    <h4>Bio - Regional - Frisch - Glutenfrei - Laktosefrei</h4>
-
+            <Row className="gx-0">
+                <Col className="text-center textblock">
                     <p>
-                        <StaticImage src="../images/biofoodtruck-hero.jpg" alt="photo of ruza nera bio foodtruck" width="1024" />
+                        <StaticImage src="../images/biofoodtruck-hero.jpg" alt="photo of ruza nera bio foodtruck" width={1024} />
                     </p>
 
-                    <h5>Foodtruck Catering für Ihr Event</h5>
-                    <p>
+                    <h2 className="xl-text">bio - regional - frisch - glutenfrei</h2>
+                    <p className="text-center" style={{fontFamily: "arial, helvetica, sans-serif"}}>
                         Wir bereiten die Speisen, soweit es möglich ist, frisch in unserem Biofoodtruck vor Ort für Sie zu.
-                        <br />Dabei können Sie dem Koch über die Schulter schauen, die Flammen lodern sehen und den Duft von frischen Kräutern geniessen.
+                        <br />Dabei können Sie dem Koch über die Schulter schauen,
+                        die Flammen lodern sehen
+                        <br />und den Duft von frischen Kräutern geniessen.
+                        <br />Alle Zutaten und Produkte werden von uns sorgfältig ausgewählt….beim Biobauern im nächsten Dorf
+                        <br />oder bei einem biozertifizierten Hersteller unseres Vertrauens.
+                        <br />Unser Speisenangebot ist sehr flexibel.
+                        <br />Je nach Saison und Angebot zaubert unser Profikoch Zoran schmackhaftes,
+                        <br />frisches bio- und glutenfreies Essen aus der Pfanne oder vom Grill.
                     </p>
-                    <p>
-                        Alle Zutaten und Produkte werden von uns sorgfältig ausgewählt….beim <strong>Biobauern</strong> im nächsten Dorf oder bei einem <strong>biozertifizierten</strong> Hersteller unseres Vertrauens.
-                        <br />Unser Speisenangebot ist sehr flexibel (vielfältig).
-                    </p>
-                    <p>
-                        Je nach Saison und Angebot zaubert unser Profikoch Zoran schmackhaftes, frisches bio- und glutenfreies Essen aus der Pfanne oder vom Grill.
-                    </p>
-                    <p>
+                    <p className="callout-text lg-text">
                         Unser mobile Kitchen ist nicht nur <strong>bio</strong>, sondern auch glutenfrei und transparent.
                     </p>
-                    <p>
-                        <Link to="/catering">Foodtruck Catering</Link> für Ihr Event.
-                        <br />...transparentes Kochen in einer
-                        <br />mobilen Küche…
+                    <p className="callout-text lg-text">
+                        <Link to="/catering">BioFoodtruck Catering</Link> für Ihren Event.
                     </p>
-                    <p className="bio-grun">
+                    <p className="callout-text xl-text">
+                        …..transparentes Kochen in einer <br />mobilen Küche….<br />und sind 100% Bio-Zertifiziert
+                    </p>
+                    <p>
                         <strong>Ois Bio. Keine Kompromisse.
-                            <br />Natürlich sind wir biozertifiziert.</strong>
-                            <div><strong>Seit 2017</strong></div>
+                            <br />Natürlich sind wir biozertifiziert.
+                        </strong>
+                        <br /><strong>Seit 2017</strong>
                     </p>
                     <Biologo />
                 </Col>

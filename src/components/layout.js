@@ -14,9 +14,9 @@ const Layout = ({ children }) => {
     )
 
     return (
-        <Container fluid className="gx-0">
+        <Container fluid className="gx-0 mt-4" style={{maxWidth: "1024px"}}>
             <Navigation />
-            <Col lg={{ span: 8, offset: 2 }} className="page-non-root-layout px-4">
+            <Col className="page-layout">
                 {page}
             </Col>
             <Footer />
