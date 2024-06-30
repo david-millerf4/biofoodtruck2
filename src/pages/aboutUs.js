@@ -22,28 +22,18 @@ const AboutUs = ({ location }) => {
             </div>
             <p className="text-center" style={{fontFamily: "arial, helvetica, sans-serif"}}>
                 Meine Schwester backt mit viel Leidenschaft, glutenfreie CupCakes, Brownies und vieles mehr.
-                Zoran ist unser Profikoch, er zaubert schmackhafte Speisen.
+                Unser Profikoch, er zaubert schmackhafte Speisen.
                 Ich hatte die Idee von einem Lokal oder Foodtruck......Ich bin selbst von Zölliakie betroffen und ernähre mich schon lange Jahre  aus Überzeugung nur mit Bioprodukten. Mein Traum war es, Speisen anzubieten, die bio und glutenfrei sind, sodass jeder ohne Bedenken gut und gesund essen kann.
             </p>
             <h2>Wir sind ein Familienunternehmen</h2>
             <p>
-                <StaticImage id="Truck1" src="../images/TruckKandZkl.jpg" alt="Karina and Zoran" />
+                <StaticImage id="Truck1" src="../images/TruckKandZkl.jpg" alt="Karina and Profikoch" />
             </p>
-            <p className="lg-text" style={{fontFamily: "arial, helvetica, sans-serif"}}>Zoran ist unser Profikoch, er zaubert schmackhafte Speisen.</p>
             <p>
                 <StaticImage id="Truck2" src="../images/aboutKT.jpg" alt="Bio foodtruck family" />
             </p>
-            <p className="lg-text" style={{fontFamily: "arial, helvetica, sans-serif"}}>Meine Schwester backt mit viel Leidenschaft, glutenfreie CupCakes, Brownies und vieles mehr.</p>
-            <p className="lg-text" style={{fontFamily: "arial, helvetica, sans-serif"}}>Ich hatte die Idee von einem Lokal oder Foodtruck......Ich bin selbst von Zölliakie betroffen und ernähre mich schon lange Jahre aus Überzeugung nur mit Bioprodukten.
-            <br />
-                Mein Traum war es, Speisen anzubieten, die bio und glutenfrei sind, sodass jeder ohne Bedenken gut und gesund essen kann.</p>
-            <h3 className="callout-text lg-text">Food & Art</h3>
-            <h4 className="callout-text lg-text">Food & Art zusammen? Natürlich!</h4>
             <p>
                 <StaticImage src="../images/biofoodtruck-logo.jpg" alt="Bio Foodtruck food and art logo" />
-            </p>
-            <p>
-                <a href="http://www.schlaffer.net/" target="_blank" rel="noopener noreferrer">Karina Schlaffer - Atelier 21</a>
             </p>
             <Biologo />
         </Layout>

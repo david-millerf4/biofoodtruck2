@@ -9,10 +9,7 @@ import Navbar from "react-bootstrap/Navbar"
 const Navigation = () => {
 
     return (
-
-
         <Row className="global-header">
-
             <Col xs={12} md={6} className="w-25 p-3">
                 <StaticImage src="../images/biofoodtruck-logo.jpg" width="110" />
             </Col>
@@ -40,11 +37,7 @@ const Navigation = () => {
                             </Navbar.Collapse>
                         </Navbar>
                     </Col>
-                    
                 </Row>
-
-                
-
             </Col>
         </Row>
     );
