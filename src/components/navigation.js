@@ -11,20 +11,17 @@ const Navigation = () => {
     return (
         <Row className="global-header">
             <Col xs={12} md={6} className="w-25 p-3">
-                <StaticImage src="../images/biofoodtruck-logo.jpg" width="110" />
+                <StaticImage src="../images/biofoodtruck-logo.jpg" alt="biofoodtruck logo" width="110" />
             </Col>
             <Col className="px-0">
                 <Row className="mx-0">
                     <Col className="header-bg">
-                        <Link to="/"><StaticImage src="../images/Headerhome.png" height="100" width="600" /></Link>
+                        <Link to="/"><StaticImage src="../images/Headerhome.png" alt="speise exemplar" height="100" width="600" /></Link>
                     </Col>
                 </Row>
                 <Row>
                     <Col className="d-flex justify-content-end">
                         <Navbar expand="lg" className="header-nav py-0">
-                            {/* <Navbar.Brand href="/" className="header-logo">
-                                <StaticImage src="../images/biofoodtruck-logo.jpg" width="110" />
-                            </Navbar.Brand> */}
                             <Navbar.Toggle aria-controls="basic-navbar-nav" className="mx-3" />
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="me-1    ">

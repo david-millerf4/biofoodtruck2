@@ -28,7 +28,7 @@ const Foodtruck = ({ location }) => {
             <h4 className="callout-text lg-text">Gutes vom Grill, aus dem Topf und aus der Pfanne. Ois <strong>Bio</strong> und glutenfrei. Ois hausgemacht.</h4>
             <div><StaticImage src="../images/WochenkarteJuni28-19.jpg" alt="Speisekarte examplar" /></div>
             <p>
-            <h3>Hier die aktuellen Speisen:</h3></p>
+                <h3>Hier die aktuellen Speisen:</h3></p>
             <p>
                 <br />Wir sind <strong>100% Bio-Zertifiziert</strong>.
                 <br />Alle Speisen sind aus <strong>100% Bio-Produkten</strong>.
