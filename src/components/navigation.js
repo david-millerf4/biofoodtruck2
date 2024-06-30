@@ -11,12 +11,12 @@ const Navigation = () => {
     return (
         <Row className="global-header">
             <Col xs={12} md={6} className="w-25 p-3">
-                <StaticImage src="../images/biofoodtruck-logo.jpg" alt="biofoodtruck logo" width="110" />
+                <Link to="/"><StaticImage src="../images/biofoodtruck-logo.jpg" alt="biofoodtruck logo" width={110} /></Link>
             </Col>
             <Col className="px-0">
                 <Row className="mx-0">
                     <Col className="header-bg">
-                        <Link to="/"><StaticImage src="../images/Headerhome.png" alt="speise exemplar" height="100" width="600" /></Link>
+                        <StaticImage src="../images/Headerhome.png" alt="speise exemplar" height={100} width={600} />
                     </Col>
                 </Row>
                 <Row>

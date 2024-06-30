@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import Row from "react-bootstrap/Row"
 import Col from 'react-bootstrap/Col'
 

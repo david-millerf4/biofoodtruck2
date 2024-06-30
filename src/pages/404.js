@@ -17,7 +17,7 @@ const NotFoundPage = ({ data, location }) => {
                     <br />Die Seite konnte leider nicht gefunden werden.
                 </p>
                 <Link to="/">
-                    <StaticImage src="../images/biofoodtruck_hintern.jpg" alt="biofoodtruck hintern" height="450" />
+                    <StaticImage src="../images/biofoodtruck_hintern.jpg" alt="biofoodtruck hintern" height={450} />
                     <div className="lg-text">Zum Homepage</div>
                 </Link>
             </div>

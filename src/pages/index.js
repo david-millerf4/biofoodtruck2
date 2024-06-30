@@ -19,7 +19,7 @@ const HomePage = ({ location }) => {
             <Row className="gx-0">
                 <Col className="text-center textblock">
                     <p>
-                        <StaticImage src="../images/biofoodtruck-hero.jpg" alt="photo of ruza nera bio foodtruck" width="1024" />
+                        <StaticImage src="../images/biofoodtruck-hero.jpg" alt="photo of ruza nera bio foodtruck" width={1024} />
                     </p>
 
                     <h2 className="xl-text">bio - regional - frisch - glutenfrei</h2>
@@ -31,10 +31,8 @@ const HomePage = ({ location }) => {
                         <br />Alle Zutaten und Produkte werden von uns sorgfältig ausgewählt….beim Biobauern im nächsten Dorf
                         <br />oder bei einem biozertifizierten Hersteller unseres Vertrauens.
                         <br />Unser Speisenangebot ist sehr flexibel.
-                        <br />
-                        Je nach Saison und Angebot zaubert unser Profikoch Zoran schmackhaftes,
+                        <br />Je nach Saison und Angebot zaubert unser Profikoch Zoran schmackhaftes,
                         <br />frisches bio- und glutenfreies Essen aus der Pfanne oder vom Grill.
-                        <br />
                     </p>
                     <p className="callout-text lg-text">
                         Unser mobile Kitchen ist nicht nur <strong>bio</strong>, sondern auch glutenfrei und transparent.
@@ -47,8 +45,9 @@ const HomePage = ({ location }) => {
                     </p>
                     <p>
                         <strong>Ois Bio. Keine Kompromisse.
-                            <br />Natürlich sind wir biozertifiziert.</strong>
-                        <div><strong>Seit 2017</strong></div>
+                            <br />Natürlich sind wir biozertifiziert.
+                        </strong>
+                        <br /><strong>Seit 2017</strong>
                     </p>
                     <Biologo />
                 </Col>
