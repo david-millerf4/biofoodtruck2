@@ -13,12 +13,11 @@ const NotFoundPage = ({ data, location }) => {
             <div className="textblock">
                 <h1>404: Seite nicht gefunden.</h1>
                 <p className="lg-text">
-                    Da scheint wohl etwas schief gelaufen zu sein.
-                    <br />Die Seite konnte leider nicht gefunden werden.
+                  Die Seite konnte leider nicht gefunden werden.
                 </p>
                 <Link to="/">
                     <StaticImage src="../images/biofoodtruck_hintern.jpg" alt="biofoodtruck hintern" height={450} />
-                    <div className="lg-text">Zum Homepage</div>
+                    <div className="lg-text">Zur Homepage</div>
                 </Link>
             </div>
         </Layout>
