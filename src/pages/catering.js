@@ -20,6 +20,9 @@ const Catering = ({ location }) => {
                 <h2 className="callout-text lg-text">Beispielmenues</h2>
                 <h3 className="callout-text lg-text">Fingerfood - Steaks - Grill - Burger - Tapas - Suppen - Pasta - Kuchen - Desserts - Salate ............</h3>
                 <p>
+                    <StaticImage src="../images/Sandwich2-1.jpg" alt="Lecker Hamburger" title="Lecker Hamburger" />
+                </p>
+                <p>
                     <StaticImage src="../images/Hamburgermediterran2.jpg" alt="Lecker Hamburger Mediterran" title="Lecker Hamburger Mediterran" />
                 </p>
                 <h2 className="callout-text lg-text">Bio Foodtruck Catering für Ihr Event.</h2>

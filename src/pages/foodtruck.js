@@ -33,8 +33,13 @@ const Foodtruck = ({ location }) => {
             <p>
                 <br />Wir sind <strong>100% Bio-Zertifiziert</strong>.
                 <br />Alle Speisen sind aus <strong>100% Bio-Produkten</strong>.
-            </p>
+            </p>g
             <ul>
+                <li>
+                    <StaticImage src="../images/Sandwich2-1.jpg" alt="Speisekarte examplar" />
+                    <br />
+                    Burger (<strong>100 % Biorind</strong>)
+                </li>
                 <li>
                     <StaticImage src="../images/ballchen.png" alt="Speisekarte examplar" />
                     <br />
